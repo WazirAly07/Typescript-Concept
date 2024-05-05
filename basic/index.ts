@@ -16,8 +16,27 @@ console.log("----------Well come to Loops--------------")
 
 //Factorial of 2 (you used any number)
 
-for(let i =0; i<10 ;++i){
-    let num = i * 2 ;
-    console.log(num);
+// for(let i =0; i<10 ;++i){
+//     let num = i * 2 ;
+//     console.log(num);
 
+// }
+
+//break in loop
+
+// for(let i=0; i< 10; ++i){
+//     if(i==5){
+//         console.log(`detected ${i}`);
+//         break;
+//     }
+//     console.log(`value of i is ${i}`)
+// }
+
+//continue is used in loop
+for(let i=0; i< 10; ++i){
+    if(i==5){
+        console.log(`detected ${i}`);
+        continue;
+    }
+    console.log(`value of i is ${i}`)
 }
