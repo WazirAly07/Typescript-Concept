@@ -13,4 +13,4 @@ let factor=4;
 do{
     console.log(`Multiple of ${factor} is ${factor*i}`)
     ++i;
-}while(i<4);
+}while(i<5);
