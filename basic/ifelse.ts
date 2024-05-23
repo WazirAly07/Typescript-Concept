@@ -1,4 +1,4 @@
-import prompt from "inquirer/lib/ui/prompt";
+// import prompt from "inquirer/lib/ui/prompt";
 
 console.log("--------If Else Statement------------");
 
@@ -17,4 +17,14 @@ console.log("--------If Else Statement------------");
 // }
 
 
-let vovel = prompt("Enter a words");
+let vovel = ["a","e","i","o","u"];
+let types=1;
+switch (types) {
+    case 1:
+        console.log("hello 1");
+        break;
+
+    default:
+        console.log("hello OTHER");
+        break;
+}
