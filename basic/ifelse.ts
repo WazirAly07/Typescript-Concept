@@ -21,7 +21,7 @@ let vovel = ["a","e","i","o","u"];
 let types=1;
 switch (types) {
     case 1:
-        console.log("hello 1");
+        console.log("This is vovle");
         break;
 
     default:
