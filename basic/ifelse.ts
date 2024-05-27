@@ -18,13 +18,13 @@ console.log("--------If Else Statement------------");
 
 
 let vovel = ["a","e","i","o","u"];
-let types=1;
+let types=vovel;
 switch (types) {
-    case 1:
+    case 'a':
         console.log("This is vovle");
         break;
 
     default:
-        console.log("hello OTHER");
+        console.log("This is not a vovel");
         break;
 }
